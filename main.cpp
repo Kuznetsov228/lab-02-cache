@@ -64,7 +64,7 @@ public:
                 {
 
                     for (int j = 0; j < n; j++) {
-                        int i = rand() % n;
+                        int j = rand() % n;
 
 
                             m=p[j];
@@ -120,19 +120,31 @@ int main()
         Ob1.experement(2,i);
         i++;
         Ob1.experement(3,i);
-        i++;
+        i=1;
     Ob2.experement(1,i);
     i++;
     Ob2.experement(2,i);
     i++;
     Ob2.experement(3,i);
-    i++;
+    i=1;
     Ob3.experement(1,i);
     i++;
     Ob3.experement(2,i);
     i++;
     Ob3.experement(3,i);
+    i=1;
+     Ob4.experement(1,i);
     i++;
+    Ob4.experement(2,i);
+    i++;
+    Ob5.experement(3,i);
+    i=1;
+     Ob5.experement(1,i);
+    i++;
+    Ob5.experement(2,i);
+    i++;
+    Ob5.experement(3,i);
+    
 
 
 
