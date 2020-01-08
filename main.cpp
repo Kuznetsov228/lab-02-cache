@@ -107,9 +107,6 @@ public:
 
 int main()
 {
-
-
-    //vector<Cache> v;
     Cache Ob1(1), Ob2(2), Ob3(4), Ob4(8), Ob5(12);
 
 
