@@ -17,6 +17,10 @@ public:
         p = new char[n];
 
     }
+    ~Cache()
+    {
+        delete[] p;
+    }
     void init () {
         for(unsigned int i = 0; i < n; i++) {
             p[i] = rand() % 1000;
