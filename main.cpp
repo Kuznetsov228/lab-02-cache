@@ -33,19 +33,19 @@ public:
     }
 
 
-    void experement(  int reg, int num) {
+    void experement(int reg, int num) {
         unsigned char m;
 
         auto start = chrono::system_clock::now();
         init();
         heat();
 
-        for (int i = 0; i < N; i++) {
+        for (unsigned int i = 0; i < N; i++) {
             switch (reg) {
                 case 1:
 
 
-                    for (int j = 0; j < n; j++) {
+                    for (unsigned int j = 0; j < n; j++) {
 
                         m = p[j];
                     }
@@ -54,7 +54,7 @@ public:
 
                 case 2:
 
-                    for (int j = n - 1; j >= 0; j--) {
+                    for (unsigned int j = n - 1; j >= 0; j--) {
                         m = p[j];
                     }
 
@@ -63,11 +63,11 @@ public:
                 case 3:
                 {
 
-                    for (int j = 0; j < n; j++) {
-                        int j = rand() % n;
+                    for (unsigned int j = 0; j < n; j++) {
+                        unsigned int i = rand() % n;
 
 
-                            m=p[j];
+                            m=p[i];
 
 
                     }
