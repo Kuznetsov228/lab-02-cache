@@ -10,11 +10,7 @@ private:
     int n;
 public:
 
-    Cache (){
-        p = nullptr;
-        n = 0;
-
-    }
+   
     Cache(int mb)
     {
         n = mb * 1024 * 1024/4;
